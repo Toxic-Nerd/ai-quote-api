@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: ai-quote-api
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: ai-quote-api
+
+  template:
+    metadata:
+      labels:
+        app: ai-quote-api
+
+    spec:
+      containers:
+      - name: ai-quote-api
+        image: ai-quote-api:v1
+        imagePullPolicy: Never
+
+        ports:
+        - containerPort: 5000
