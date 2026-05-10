@@ -10,7 +10,10 @@ quotes = [
     "Small progress every day",
     "Embrace failure as feedback",
     "Life is Hello World",
-    "Life is hell"
+    "Life is hell",
+    "Life is a journey, not a destination",
+    "The only way to do great work is to love what you do",
+    "Success is not final, failure is not fatal: It is the courage to continue that counts"
 ]
 
 @app.route("/")
