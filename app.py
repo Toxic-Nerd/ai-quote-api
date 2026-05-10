@@ -7,7 +7,10 @@ quotes = [
     "Keep learning DevOps",
     "Automation saves time",
     "Consistency creates mastery",
-    "Small progress every day"
+    "Small progress every day",
+    "Embrace failure as feedback",
+    "Life is Hello World",
+    "Life is hell"
 ]
 
 @app.route("/")
